@@ -7,7 +7,7 @@ I am using vim plug as the package manager.
 1. Create a symbolic link from home directory to the vimrc in this repo.
 
 ```bash
-    ln -s ~/.vimrc <path_to_this_repo>/.vimrc
+    ln -s <path_to_this_repo>/.vimrc ~/.vimrc
 ```
 
 1. Install vim-plug from [git](https://github.com/junegunn/vim-plug) or run:
