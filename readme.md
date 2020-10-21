@@ -1,32 +1,28 @@
 # A vim rc which works for me
 
-I am using vim plug as the package manager. 
+I am using vundle as the package manager. 
 
 ## Instalation
 
 1. Create a symbolic link from home directory to the vimrc in this repo.
+    ```bash
+        ln -s <path_to_this_repo>/.vimrc ~/.vimrc
+    ```
 
+1. Install vundle from [git](https://github.com/VundleVim/Vundle.vim) and follow the instructions there.
+
+
+1. To install a package, simply add the package to the vimrc in the Plugin section then run 
 ```bash
-    ln -s <path_to_this_repo>/.vimrc ~/.vimrc
+    :source %
+    :PluginInstall
 ```
-
-1. Install vim-plug from [git](https://github.com/junegunn/vim-plug) or run:
-
-```bash
-    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-```
-
-1. Run `:PlugInstall`
-
-
 
 ### Packages
 
-- solarised dark (colour scheme)
+- solarised8 dark (colour scheme)
 - NERDTree
-- functionlist <---------------------------------(WIP)
-- vim surround
+- functionlist
 
 ## References
 
